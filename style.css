@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Gentium Book Plus, sans-serif;
+    background-color: rgba(238, 244, 243, 0.726);
+}
+
+header .logo h1 {
+   text-transform: uppercase;
+   word-spacing: 3px;
+   letter-spacing: 3px;
+   color: rgb(111, 116, 116);
+   text-align: center;
+   margin: 25px 0;
+   font-size: 80px;
+
+}
+.laptop-bg-container  {
+    
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.HP {
+    background-image: url(./images/xps-Gi3iUJ1FwxI-unsplash.jpg);
+}
+.dell {
+    background-image: url(./images/xps-g2E2NQ5SWSUdell-unsplash.jpg);
+}
+.lenovo {
+    background-image: url(./images/m20-m20-rDdFOlMOTdclenovo-unsplash.jpg);
+}
+.apple {
+    background-image: url(./images/dmitry-chernyshov-mP7aPSUm7aE-unsplash\ \(1\).jpg);
+}
+.laptop-bg-container h1 {
+    color: aliceblue;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 150px 0 0 100px;
+}
+.HP h1 {
+    color: darkslategrey;
+}
+.dell h1 {
+    color: rgb(4, 58, 59);
+}
+.laptop-details-container {
+    margin: 75px;
+    text-align: center;
+}
+.laptop-details-container h1 {
+    text-transform: uppercase;
+    font-size: 50PX;
+    color: rgb(130, 133, 128);
+    margin-bottom: 25px;
+}
+.lenovo-text h1 {
+    color: black;
+}
+.dell-text h1 {
+    color: rgb(0, 0, 0, 0.8);
+}
+.apple-text h1 {
+    color: darkblue;
+}
+
+.laptop-details-container p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.laptop-details-container a {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.laptop-details-container a {
+    text-decoration: none;
+    color: rgb(104, 106, 106);
+    background-color: aliceblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    border-radius: 3px;
+    margin-top: 25px;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 25ppx;
+ }
+ .lenovo-text a {
+    color: black;
+ }
+ .dell-text a {
+    color: rgb(20, 19, 19);
+}
+.apple-text a {
+    color: darkblue;
+}
+ .laptop-details-container a:hover {
+    background-color: chocolate;
+    outline: 3px solid sandybrown;
+ }
